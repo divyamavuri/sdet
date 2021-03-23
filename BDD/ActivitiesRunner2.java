@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features = "Features",
 		glue = "stepDefinitions",
 		tags = "@activity1_2",
-		plugin = {"pretty"},
+		plugin = {"html: test-reports"},
 		monochrome = true
 		)
 
