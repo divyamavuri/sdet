@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="e24d7381-b8ea-4291-86a0-d55d114ce846" created="3.6.0" activeEnvironment="Default environment" name="REST Project 1" updated="3.6.0 2021-02-02T15:53:59Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="e24d7381-b8ea-4291-86a0-d55d114ce846" created="3.6.0" activeEnvironment="Default" name="REST Project 1" updated="3.6.0 2021-02-02T15:53:59Z" encryptionMode="Not encrypted" abortOnError="false" runType="SEQUENTIAL" soapui-version="5.5.0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:interface xsi:type="con:RestService" id="6e4ff163-500e-4c8e-bf17-18cc5b05d0af" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://petstore.swagger.io" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <con:settings/>
@@ -216,7 +216,7 @@
     <con:settings/>
     <con:savedRecentRuns>1</con:savedRecentRuns>
     <con:runType>SEQUENTIAL</con:runType>
-    <con:testCase id="c1e6a022-9751-41ff-a319-285eab8ef35b" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="POST request" searchProperties="true" timeout="0">
+    <con:testCase id="c1e6a022-9751-41ff-a319-285eab8ef35b" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="POST request" searchProperties="true" timeout="0" maxResults="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request 1" id="aa9d7ef6-e4ef-4db8-a6b8-9fe82c970728">
@@ -256,7 +256,7 @@
       <con:properties/>
       <con:reportParameters/>
     </con:testCase>
-    <con:testCase id="786bf3fc-315e-4777-8aca-803d966fc3e4" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Login Request" searchProperties="true" timeout="0">
+    <con:testCase id="786bf3fc-315e-4777-8aca-803d966fc3e4" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Login Request" searchProperties="true" timeout="0" maxResults="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request 1" id="995169cb-92ac-423a-a0d6-e6f7573eb72a">
@@ -294,7 +294,7 @@
       <con:properties/>
       <con:reportParameters/>
     </con:testCase>
-    <con:testCase id="776355e1-0817-4539-91a5-5cfa221e2146" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GET request" searchProperties="true" timeout="0">
+    <con:testCase id="776355e1-0817-4539-91a5-5cfa221e2146" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="GET request" searchProperties="true" timeout="0" maxResults="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request 1" id="b7b23a55-af7c-4095-95a9-318072a9da9d">
@@ -330,7 +330,7 @@
       <con:properties/>
       <con:reportParameters/>
     </con:testCase>
-    <con:testCase id="812c631c-04f6-4540-85e8-30c8aef23625" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="DELETE request" searchProperties="true" timeout="0">
+    <con:testCase id="812c631c-04f6-4540-85e8-30c8aef23625" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="DELETE request" searchProperties="true" timeout="0" maxResults="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request 1" id="23864182-5770-4b9f-89ee-f5ed5c9bdeae">
@@ -366,7 +366,7 @@
       <con:properties/>
       <con:reportParameters/>
     </con:testCase>
-    <con:testCase id="a892a221-bbc0-4df1-ad67-ce2822f49d5f" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="LOGOUT request" searchProperties="true" timeout="0">
+    <con:testCase id="a892a221-bbc0-4df1-ad67-ce2822f49d5f" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="LOGOUT request" searchProperties="true" timeout="0" maxResults="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="restrequest" name="Request 1" id="8d874832-1f98-4d5e-8314-80b646dabf89">

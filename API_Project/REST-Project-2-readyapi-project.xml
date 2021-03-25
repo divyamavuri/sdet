@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="c8487229-3b26-4e61-9a64-d73e51df9928" created="3.6.0" activeEnvironment="Default environment" name="REST Project 2" updated="3.6.0 2021-02-02T15:53:59Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="c8487229-3b26-4e61-9a64-d73e51df9928" created="3.6.0" activeEnvironment="Default" name="REST Project 2" updated="3.6.0 2021-02-02T15:53:59Z" encryptionMode="Not encrypted" abortOnError="false" runType="SEQUENTIAL" soapui-version="5.5.0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:interface xsi:type="con:RestService" id="c23a540d-7a9a-4077-860c-ff0a059fdd19" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://ipwhois.app" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <con:settings/>
@@ -55,7 +55,7 @@
   <con:testSuite id="f3d4a711-f72b-4844-a078-9cfc2fc59b40" name="http://ipwhois.app Test Suite">
     <con:settings/>
     <con:runType>SEQUENTIAL</con:runType>
-    <con:testCase id="31036e5e-f181-4325-8299-bf6bc9363b76" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="http://ipwhois.app Test Case 1" searchProperties="true" timeout="0">
+    <con:testCase id="31036e5e-f181-4325-8299-bf6bc9363b76" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="http://ipwhois.app Test Case 1" searchProperties="true" timeout="0" maxResults="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="datasource" name="Data Source" id="17ea8763-2d06-4470-a911-bf38c63eab6b">
